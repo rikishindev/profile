@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:Arial,sans-serif;
+  line-height:1.6;
+  background-color:#f4f4f4;
+  color:#333;
+}
+
+header{
+  background-color:azure;
+  text-align:center;
+  padding:40px 0;
+  margin-bottom:40px;
+  border-radius:10px;
+   transition:0.3s;
+}
+.profile,
+.projects,
+.skills,
+.goals{
+    max-width:800px;
+  margin:0 auto;
+  padding:40px 20px;
+   font-size:1.1rem;
+    line-height:1.8;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    margin-bottom:40px;
+    border-radius:10px;
+    transition:0.3s;
+}
+.profile:hover,
+.projects:hover,
+.skills:hover,
+.goals:hover,
+header:hover{
+    transform:translateY(-5px);
+}
+.projects h3,
+.projects h4,
+.projects h5{
+    font-size:1rem;
+}
+.projects ul{
+     padding-left:25px;
+    line-height:2;
+}
+.projects li{
+    margin:20px 0;
+}
+.projects img{
+    width:100%;
+    height:auto;
+    max-width:600px;
+    border-radius:8px;
+    display:block;
+    margin:20px auto;
+}
+.projects a, .skills a{
+    color:#333;
+    text-decoration:none;
+    font-weight:bold;
+}
+.skills{
+    text-align:center;
+}
+section h2{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.text{
+  font-size:1.1rem;
+  line-height:1.8;
+}
+.profile p, .goals p{
+     text-indent:2em;
+}
